@@ -2,14 +2,11 @@ package entidades;
 
 import entidades.enums.Cor;
 
-public class Circulo extends Forma {
+public class Circulo extends FormaAbstrata {
 
 	
 	private Double raio;
 
-	public Circulo () {
-		
-	}
 	
 	public Circulo(Cor cor, Double raio) {
 		super(cor);

@@ -2,26 +2,8 @@ package entidades;
 
 import entidades.enums.Cor;
 
-public abstract class Forma {
+public interface Forma {//Refatorando essa classe abstrata para uma interface
 
-	private Cor cor;
-
-	public Forma() {
-
-	}
-
-	public Forma(Cor cor) {
-		this.cor = cor;
-	}
-
-	public Cor getCor() {
-		return cor;
-	}
-
-	public void setCor(Cor cor) {
-		this.cor = cor;
-	}
-
-	public abstract double area();//Método abstrato, pois esta classe é genérica demais para contar a implementação do método.
+	 double area();//Método abstrato, pois esta classe é genérica demais para contar a implementação do método.
 
 }

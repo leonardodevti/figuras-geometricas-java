@@ -2,14 +2,10 @@ package entidades;
 
 import entidades.enums.Cor;
 
-public class Retangulo extends Forma {
+public class Retangulo extends FormaAbstrata {
 
 	private Double altura;
 	private Double largura;
-	
-	public Retangulo () {
-		
-	}
 	
 	public Retangulo(Cor cor, Double altura, Double largura) {
 		super(cor);
